@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\26311019_KimMinJae\\26311019_KimMinJa_GameCraft\\BeatShooting\\",
+  "WorkspaceRootPath": "D:\\MinHarine_26311019\\26311019_KimMinJa_GameCraft\\BeatShooting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46EA47C5-C152-40E3-A73F-8286BBD646AC}|BeatShooting.vcxproj|C:\\26311019_KimMinJae\\26311019_KimMinJa_GameCraft\\BeatShooting\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{46EA47C5-C152-40E3-A73F-8286BBD646AC}|BeatShooting.vcxproj|D:\\MinHarine_26311019\\26311019_KimMinJa_GameCraft\\BeatShooting\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{46EA47C5-C152-40E3-A73F-8286BBD646AC}|BeatShooting.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\26311019_KimMinJae\\26311019_KimMinJa_GameCraft\\BeatShooting\\main.cpp",
+              "DocumentMoniker": "D:\\MinHarine_26311019\\26311019_KimMinJa_GameCraft\\BeatShooting\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\26311019_KimMinJae\\26311019_KimMinJa_GameCraft\\BeatShooting\\main.cpp",
+              "ToolTip": "D:\\MinHarine_26311019\\26311019_KimMinJa_GameCraft\\BeatShooting\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-10-15T00:45:01.286Z",
               "EditorCaption": ""
