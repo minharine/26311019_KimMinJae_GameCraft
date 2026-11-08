@@ -129,7 +129,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CApplication.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SceneBegin.cpp" />
+    <ClCompile Include="ScenePlay.cpp" />
+    <ClCompile Include="SceneResult.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CApplication.h" />
+    <ClInclude Include="SceneBegin.h" />
+    <ClInclude Include="ScenePlay.h" />
+    <ClInclude Include="SceneResult.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
