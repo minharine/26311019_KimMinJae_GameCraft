@@ -16,7 +16,7 @@ extern GAME_STATE g_GameState;
 
 // 화면 크기
 #define SCREEN_WIDTH 800
-#define SCREEN_HEIGHT 600
+#define SCREEN_HEIGHT 800
 
 // 이미지 리소스
 extern int g_GameBackground;

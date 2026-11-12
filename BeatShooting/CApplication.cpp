@@ -23,25 +23,30 @@ int g_Font = -1;
 void CApplication::LoadResource()
 {
     // 게임 배경
-    g_GameBackground = g2_TextureLoad(
-        "resource/image/background/bg_game.png"
+    g_GameBackground = g2_TextureLoad
+    (
+        "resource/image/background/bg_title.png"
     );
 
     // 플레이어 이미지
-    g_PlayerIdle = g2_TextureLoad(
+    g_PlayerIdle = g2_TextureLoad
+    (
         "resource/image/player/player_idle.png"
     );
 
-    g_PlayerLeft = g2_TextureLoad(
+    g_PlayerLeft = g2_TextureLoad
+    (
         "resource/image/player/player_move_left.png"
     );
 
-    g_PlayerRight = g2_TextureLoad(
+    g_PlayerRight = g2_TextureLoad
+    (
         "resource/image/player/player_move_right.png"
     );
 
     // 빔 이미지
-    g_Laser = g2_TextureLoad(
+    g_Laser = g2_TextureLoad
+    (
         "resource/image/obstacle/obstacle_laser.png"
     );
 
@@ -113,7 +118,8 @@ void CApplication::Run()
     g2_InitSdk();
 
     // 게임 창 생성
-    g2_CreateWin(
+    g2_CreateWin
+    (
         100, 100,
         SCREEN_WIDTH,
         SCREEN_HEIGHT,

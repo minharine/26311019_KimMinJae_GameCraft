@@ -35,12 +35,12 @@ int SceneBeginRender()
         if (bgWidth > 0 && bgHeight > 0)
         {
             // 화면 중앙에 배경 출력
-            VEC2 bgPos = { 400.0f, 300.0f };
+            VEC2 bgPos = { 0.0f, 0.0f };
 
             // 800 x 600 화면에 맞게 크기 조절
             VEC2 bgScale = {
                 800.0f / bgWidth,
-                600.0f / bgHeight
+                800.0f / bgHeight
             };
 
             g2_Draw2D(
@@ -55,18 +55,20 @@ int SceneBeginRender()
     // 게임 제목 및 시작 안내
     if (g_Font >= 0)
     {
-        VEC2i titlePos = { 280, 220 };
+        VEC2i titlePos = { 300, 280 };
 
-        g2_FontDrawText(
+        g2_FontDrawText
+        (
             g_Font,
             titlePos,
             0xFFFFFFFF,
             "BEAT SHOOTING"
         );
 
-        VEC2i startPos = { 260, 400 };
+        VEC2i startPos = { 255, 450 };
 
-        g2_FontDrawText(
+        g2_FontDrawText
+        (
             g_Font,
             startPos,
             0xFFFFFFFF,

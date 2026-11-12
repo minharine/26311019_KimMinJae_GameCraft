@@ -130,11 +130,11 @@ int ScenePlayRender()
 
         if (bgWidth > 0 && bgHeight > 0)
         {
-            VEC2 bgPos = { 400.0f, 300.0f };
+            VEC2 bgPos = { 0.0f, 0.0f };
 
             VEC2 bgScale = {
                 800.0f / bgWidth,
-                600.0f / bgHeight
+                800.0f / bgHeight
             };
 
             g2_Draw2D(
